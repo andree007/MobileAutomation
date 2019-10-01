@@ -17,7 +17,6 @@ Appium::Driver.new(caps, true)
 Appium.promote_appium_methods Object
 
 
-
 def find_in_list(value)
 
   current_screen = get_source
@@ -60,7 +59,3 @@ def find_five_products
   puts(second_view_last_pro + " " + second_view_last_price)
 
 end
-
-
-
-

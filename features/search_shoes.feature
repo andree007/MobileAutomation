@@ -5,7 +5,7 @@ Feature: Test for search shoes on EBay
   Scenario: User able to search PUMA shoes and perform custom actions
     Given I land on the home screen
     When I press on search bar
-    Then I type "SHOES" in search field
+    Then I type "NIKE" in search field
     And I select the filter option
     And I select the Brand option
     And I select PUMA brand
