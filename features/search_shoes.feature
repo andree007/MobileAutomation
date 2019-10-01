@@ -13,7 +13,6 @@ Feature: Test for search shoes on EBay
     And I print the number of results
     Then I order by price ascendant
     And I take the first 5 products with their prices and print them in console
-    And I order and print the products by name in ascendant mode
     And I order and print the products by price in descendant mode
 
 

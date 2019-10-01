@@ -34,7 +34,7 @@ And(/^I select the Brand option$/) do
 end
 
 And(/^I select PUMA brand$/) do
-  find_elements(id: "button_filter_subelement")[7].click
+  find_elements(id: "button_filter_subelement")[6].click
   find_element(id: "button_done").click
 end
 
@@ -43,11 +43,12 @@ Then(/^I select the size 10$/) do
   find_elements(id: "textview_filter_displayname")[2].click
   find_element(id: "search_refine_list").find_elements(id: "button_filter_subelement")[5].click
   find_element(id: "button_done").click
+  find_element(id: "popup_container").click
+
 end
 
 
 And(/^I print the number of results$/) do
-  find_element(id: "popup_container").click
   count_result = find_element(id: "textview_item_count").text
   puts("El número de productos actual es: " + count_result)
 end
@@ -59,7 +60,7 @@ Then(/^I order by price ascendant$/) do
   find_elements(id: "textview_filter_displayname")[0].click
   find_element(id: "search_refine_list").find_elements(xpath: "//android.widget.LinearLayout")[1].click
   find_element(id: "button_done").click
-  sleep(5)
+
 
 end
 
@@ -71,11 +72,27 @@ end
 
 And(/^I take the first 5 products with their prices and print them in console$/) do
 
-  Appium::TouchAction.new.swipe(start_x: 0.50, start_y: 0.50, end_x: 0.50, end_y: 0.40, duration: 2000).perform
+  sleep(3)
+  puts("==================================== TOP 5 PRODUCTS ORDER BY PRICE ASCENDANT ====================================")
+  find_five_products
+
+
+end
+
+
+And(/^I order and print the products by price in descendant mode$/) do
+
+
+  puts("==================================== TOP 5 PRODUCTS ORDER BY PRICE DESCENDANT ====================================")
+
+  find_element(id: "button_filter").click
+  find_elements(id: "textview_filter_displayname")[0].click
+  find_element(id: "search_refine_list").find_elements(xpath: "//android.widget.LinearLayout")[2].click
+  find_element(id: "button_done").click
+  sleep(2)
+
   parent_element = find_element(id: "recycler")
   array_of_items_01 = parent_element.find_elements(id: "cell_collection_item")
-
-  puts("==================================== TOP 5 PRODUCTS ====================================")
 
   for i in array_of_items_01 do
     product = i.find_element(id: "textview_item_title").text
@@ -91,14 +108,6 @@ And(/^I take the first 5 products with their prices and print them in console$/)
 
   puts(second_view_last_pro + " " + second_view_last_price)
 
-
-end
-
-
-
-
-
-And(/^I order and print the products by name in ascendant mode$/) do
 
 
 

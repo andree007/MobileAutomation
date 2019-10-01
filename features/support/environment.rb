@@ -39,5 +39,28 @@ def find_in_list(value)
 end
 
 
+def find_five_products
+
+  Appium::TouchAction.new.swipe(start_x: 0.50, start_y: 0.50, end_x: 0.50, end_y: 0.40, duration: 2000).perform
+  parent_element = find_element(id: "recycler")
+  array_of_items_01 = parent_element.find_elements(id: "cell_collection_item")
+
+  for i in array_of_items_01 do
+    product = i.find_element(id: "textview_item_title").text
+    price = i.find_element(id: "textview_item_price").text
+    puts(product + " " + price)
+
+  end
+
+  Appium::TouchAction.new.swipe(start_x: 0.50, start_y: 0.50, end_x: 0.50, end_y: 0.32, duration: 2000).perform
+  array_of_items_02 = parent_element.find_elements(id: "cell_collection_item")
+  second_view_last_pro = array_of_items_02[array_of_items_02.length - 1].find_element(id: "textview_item_title").text
+  second_view_last_price = array_of_items_02[array_of_items_02.length - 1].find_element(id: "textview_item_price").text
+
+  puts(second_view_last_pro + " " + second_view_last_price)
+
+end
+
+
 
 
