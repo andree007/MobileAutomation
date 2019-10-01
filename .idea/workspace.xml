@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="412097a0-c766-4a24-bcb4-32731527cc20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cucumber.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/search_shoes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/search_shoes.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/environment.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/hooks.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/hooks.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/search_shoes.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -25,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cucumber.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -73,8 +72,8 @@
         <option value="$PROJECT_DIR$/features/support/environment.rb" />
         <option value="$PROJECT_DIR$/features/support/helper.rb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
-        <option value="$PROJECT_DIR$/cucumber.yml" />
         <option value="$PROJECT_DIR$/features/search_shoes.feature" />
+        <option value="$PROJECT_DIR$/cucumber.yml" />
       </list>
     </option>
   </component>
@@ -140,22 +139,22 @@
       <workItem from="1569960360634" duration="1685000" />
       <workItem from="1569962179547" duration="1544000" />
       <workItem from="1569964078384" duration="1707000" />
-      <workItem from="1569965981817" duration="65000" />
+      <workItem from="1569965981817" duration="445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9797000" />
+    <option name="totallyTimeSpent" value="10177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="509" y="23" width="931" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33295837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33295837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -201,17 +200,17 @@
     <entry file="file://$PROJECT_DIR$/repor.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/search_shoes.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cucumber.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
