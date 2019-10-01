@@ -28,4 +28,3 @@ TestCase: Find PUMA Shoes, apply filters and print the top 5 results.
 10- Order and print the products by price in descendant mode
 
 11- Repository must be created in any git place (github, bitbucket, etc)
-
