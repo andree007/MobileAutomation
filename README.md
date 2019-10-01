@@ -23,7 +23,7 @@ TestCase: Find PUMA Shoes, apply filters and print the top 5 results.
 
 8- Take the first 5 products with their prices and print them in console.
 
-9- Order and print the products by name (ascendant) ...............................................(PENDING TO IMPLEMENT)
+9- Order and print the products by name (ascendant) 
 
 10- Order and print the products by price in descendant mode
 
