@@ -16,18 +16,6 @@ Feature: Test for search shoes on EBay
     And I order and print the products by name in ascendant mode
     And I order and print the products by price in descendant mode
 
-  Scenario: Extract 5 elements of the list
-    Given I land on the home screen
-    When I press on search bar
-    Then I type "SHOES" in search field
-    And I save in array five elements of the list
-    #And I scroll up para encontrar el ultimo elemento
-    #And I create example
-    And example01
-    And I scroll down
-
-
-
 
 
 
